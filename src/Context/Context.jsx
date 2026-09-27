@@ -1,4 +1,3 @@
-/* */
 import axios from "../axios";
 import { useState, useEffect, createContext } from "react";
 
@@ -73,4 +72,3 @@ export const AppProvider = ({ children }) => {
 };
 
 export default AppContext;
-/* */
