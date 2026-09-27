@@ -1,4 +1,3 @@
-/* */
 import React, { useContext, useState, useEffect } from "react";
 import AppContext from "../Context/Context";
 import axios from "axios";
@@ -251,4 +250,3 @@ const Cart = () => {
 };
 
 export default Cart;
-/* */
