@@ -1,4 +1,3 @@
-/* */
 import React, { useEffect, useState } from "react";
 import { initializeAuthentication } from "./auth";
 
@@ -277,4 +276,3 @@ function App() {
 }
 
 export default App;
-/* */
