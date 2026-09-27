@@ -1,4 +1,3 @@
-/* */
 import axios, {
     setJwtToken,
     setCsrfToken
@@ -39,4 +38,3 @@ export async function initializeAuthentication() {
 
     return true;
 }
-/* */
