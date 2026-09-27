@@ -1,4 +1,3 @@
-/* */
 import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import AppContext from "../Context/Context";
@@ -166,4 +165,3 @@ const Home = ({ selectedCategory }) => {
 };
 
 export default Home;
-/* */
