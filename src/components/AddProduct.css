@@ -1,0 +1,131 @@
+/* =========================
+   ADD PRODUCT PAGE
+   ========================= */
+
+.add-product-page {
+  min-height: 100vh;
+  background-color: var(--body_background);
+  color: var(--body_color);
+}
+
+.add-product-page .card {
+  background-color: var(--card-bg-clr) !important;
+  color: var(--body_color) !important;
+}
+
+.add-product-page .card-body {
+  background-color: var(--card-bg-clr) !important;
+  color: var(--body_color) !important;
+}
+
+
+/* Headings and labels */
+
+.add-product-page h1,
+.add-product-page h2,
+.add-product-page h3,
+.add-product-page h4,
+.add-product-page h5,
+.add-product-page h6,
+.add-product-page label {
+  color: var(--body_color) !important;
+}
+
+
+/* Inputs */
+
+.dark-theme .add-product-page .form-control,
+.dark-theme .add-product-page .form-select {
+  background-color: #333333 !important;
+  color: #ffffff !important;
+  border-color: #666666 !important;
+}
+
+.dark-theme .add-product-page .form-control::placeholder {
+  color: #aaaaaa !important;
+}
+
+.dark-theme .add-product-page .form-control:focus,
+.dark-theme .add-product-page .form-select:focus {
+  background-color: #333333 !important;
+  color: #ffffff !important;
+}
+
+
+/* Input group Rs */
+
+.dark-theme .add-product-page .input-group-text {
+  background-color: #444444 !important;
+  color: #ffffff !important;
+  border-color: #666666 !important;
+}
+
+
+/* Bootstrap muted text */
+
+.dark-theme .add-product-page .text-muted {
+  color: #bbbbbb !important;
+}
+
+.dark-theme .add-product-page .form-text {
+  color: #bbbbbb !important;
+}
+
+
+/* Bootstrap bg-light */
+
+.dark-theme .add-product-page .bg-light {
+  background-color: #333333 !important;
+  color: #ffffff !important;
+}
+
+
+/* Image preview */
+
+.dark-theme .add-product-page .border {
+  border-color: #666666 !important;
+}
+
+
+/* Checkbox */
+
+.dark-theme .add-product-page .form-check-label {
+  color: #ffffff !important;
+}
+
+
+/* AI modal */
+
+.dark-theme .add-product-page .modal-content {
+  background-color: #242323 !important;
+  color: #ffffff !important;
+}
+
+.dark-theme .add-product-page .modal-body,
+.dark-theme .add-product-page .modal-footer {
+  background-color: #242323 !important;
+  color: #ffffff !important;
+}
+
+.dark-theme .add-product-page .modal-title,
+.dark-theme .add-product-page .modal-body p,
+.dark-theme .add-product-page .modal-body label {
+  color: #ffffff !important;
+}
+
+.dark-theme .add-product-page .modal-body .form-text {
+  color: #bbbbbb !important;
+}
+
+
+/* Modal textarea */
+
+.dark-theme .add-product-page .modal-body textarea {
+  background-color: #333333 !important;
+  color: #ffffff !important;
+  border-color: #666666 !important;
+}
+
+.dark-theme .add-product-page .modal-body textarea::placeholder {
+  color: #aaaaaa !important;
+}

@@ -1,0 +1,90 @@
+/* CHECKOUT MODAL */
+
+.checkout-modal .modal-content {
+  background-color: var(--body_background) !important;
+  color: var(--body_color) !important;
+}
+
+.checkout-modal .modal-header,
+.checkout-modal .modal-body,
+.checkout-modal .modal-footer {
+  background-color: var(--body_background) !important;
+  color: var(--body_color) !important;
+  border-color: var(--hr_line_card) !important;
+}
+
+.checkout-modal .modal-title,
+.checkout-modal h5,
+.checkout-modal h6,
+.checkout-modal p,
+.checkout-modal label,
+.checkout-modal span {
+  color: var(--body_color) !important;
+}
+
+
+/* DARK MODE */
+
+.dark-theme .checkout-modal .modal-content,
+.dark-theme .checkout-modal .modal-header,
+.dark-theme .checkout-modal .modal-body,
+.dark-theme .checkout-modal .modal-footer {
+  background-color: #242323 !important;
+  color: #ffffff !important;
+}
+
+.dark-theme .checkout-modal .modal-title,
+.dark-theme .checkout-modal h5,
+.dark-theme .checkout-modal h6,
+.dark-theme .checkout-modal p,
+.dark-theme .checkout-modal label,
+.dark-theme .checkout-modal span {
+  color: #ffffff !important;
+}
+
+
+/* INPUTS */
+
+.dark-theme .checkout-modal .form-control {
+  background-color: #333333 !important;
+  color: #ffffff !important;
+  border: 1px solid #666666 !important;
+}
+
+.dark-theme .checkout-modal .form-control::placeholder {
+  color: #aaaaaa !important;
+}
+
+
+/* CLOSE X */
+
+.dark-theme .checkout-modal .btn-close {
+  filter: invert(1) !important;
+}
+
+
+/* PRODUCT SEPARATOR */
+
+.dark-theme .checkout-modal .border-bottom {
+  border-color: #555555 !important;
+}
+
+
+
+
+body.dark-theme .checkout-modal .modal-content,
+body.dark-theme .checkout-modal .modal-header,
+body.dark-theme .checkout-modal .modal-body,
+body.dark-theme .checkout-modal .modal-footer {
+  background-color: #242323 !important;
+  color: white !important;
+}
+
+body.dark-theme .checkout-modal h5,
+body.dark-theme .checkout-modal h6,
+body.dark-theme .checkout-modal p,
+body.dark-theme .checkout-modal label,
+body.dark-theme .checkout-modal span,
+body.dark-theme .checkout-modal .modal-title {
+  color: white !important;
+}
