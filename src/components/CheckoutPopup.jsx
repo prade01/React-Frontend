@@ -1,4 +1,3 @@
-/* */
 import axios from 'axios';
 import React, { useState } from 'react';
 import { Modal, Button, Form, Alert, Toast, ToastContainer } from 'react-bootstrap';
@@ -189,4 +188,3 @@ const CheckoutPopup = ({ show, handleClose, cartItems, totalPrice }) => {
 };
 
 export default CheckoutPopup;
-/* */
